@@ -20,12 +20,10 @@ def find_max_value(array)
   max
 end
 
-
 def find_min_value(array)
    array.sort[0]
 end
 
-=begin
 def find_min_value(array)
   min = 0
   array.length.times do |count|
@@ -38,7 +36,8 @@ def find_min_value(array)
   end
   min
 end
-=end
+
+
 
 =begin
 def find_element_index(array, value_to_find)
